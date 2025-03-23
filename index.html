@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastery University</title>
+</head>
+<body>
+
+    <!--Decription about our campus-->
+
+    <main>
+        <h1>Mastery University</h1>
+        <p>Mastery University is a beacon of academic excellence and personal
+            development, situated in a vibrant community that inspires growth and innovation.
+        </p>
+        <h2>Curriculum and Courses</h2>
+        <p>Mastery University boasts a wide array of academic programs,
+            including undergraduate degrees, graduate studies, and research opportunities.
+        </p>
+
+        <h3>Our Different Schools</h3>
+
+        <!--An Ordered list of the different schools in our University-->
+        <ol type="i">
+            <li>School of Information Science and Technology</li>
+            <li>School of Law</li>
+            <li>School of Education Science and Arts</li>
+            <li>School of Social Sciences</li>
+        </ol>
+    </main>
+    <img src="https://www.pexels.com/photo/woman-in-black-long-sleeve-dress-standing-on-brown-concrete-pathway-3186386/" alt="A photo of a lady wearing a graduation gown" height="500" width="400">
+
+    <section>
+        <h2>How to Contact Us</h2>
+
+        <!--Contacts table-->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Trevor Otieno</td>
+                    <td>Moi Avenue, Main office</td>
+                    <td>+254783456123</td>
+                    <td>trevor@mastercampus.com</td>
+                </tr>
+                <tr>
+                    <td>Kessy Njeri</td>
+                    <td>Nyeri office</td>
+                    <td>+254734945985</td>
+                    <td>kessy@mastercampus.com</td>
+                </tr>
+                <tr>
+                    <td>Joy Awuor</td>
+                    <td>Kisumu office</td>
+                    <td>+254764732857</td>
+                    <td>joy@mastercampus.com</td>
+                </tr>
+                <tr>
+                    <td>Leonidah Mbere</td>
+                    <td>Kisii Office</td>
+                    <td>+254703478434</td>
+                    <td>mbere@mastercampus.com</td>
+                </tr>
+                <tr>
+                    <td>Felix Mwendwa</td>
+                    <td>Machakos office</td>
+                    <td>+254793767484</td>
+                    <td>felix@mastercampus.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+    <br><br>
+
+        <h3>Join Us</h3>
+        <!--Registration Form-->
+        <form action="" method="">
+            <label for="full_name">Full Name: </label>
+            <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="dob">Date of Birth: </label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="course">Select Your Course: </label>
+            <select id="course" name="course" required>
+                <option value="">Choose a course</option>
+                <option value="computer_science">Computer Science</option>
+                <option value="business_admin">Business Administration</option>
+                <option value="engineering">Engineering</option>
+                <option value="law">law</option>
+                <option value="medicine">Medicine</option>
+                <option value="arts">Arts & Humanities</option>
+            </select>
+            <br><br>
+
+            <label for="mode">Mode of Study: </label>
+            <input type="radio" id="mode" name="mode" value="full_time" required>Full_time
+            <input type="radio" id="mode" name="mode" value="part_time" >Part_time
+            <br><br>
+
+            <label for="sports">Extracurricular Activities: </label>
+            <input type="checkbox" name="activities" value="sports">Sports
+            <input type="checkbox" name="activities" value="music">Music
+            <input type="checkbox" name="activities" value="coding">Coding
+            <input type="checkbox" name="activities" value="debate">Debate Club
+            <br><br>
+
+            <label for="password">Create a password: </label>
+            <input type="password" id="password" name="password" placeholder="Create a strong password" required minlength="8">
+            <br><br>
+            
+            <button type="submit">Enroll Now</button>
+        </form>
+    </section>
+</body>
+</html>
